@@ -1,0 +1,56 @@
+#######################################
+# Syntax Coloring Map For OmniController
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+OmniController	KEYWORD1
+OmniBaseConfig	KEYWORD1
+OmniBaseHardware	KEYWORD1
+WheelSpeeds	KEYWORD1
+WheelSteps	KEYWORD1
+Twist	KEYWORD1
+Waypoint	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+move	KEYWORD2
+is_limit_active	KEYWORD2
+is_moving	KEYWORD2
+
+#######################################
+# Struct Members / Constants (LITERAL1)
+#######################################
+
+# Config
+enable_pin	LITERAL1
+wheel_diameter	LITERAL1
+robot_radius	LITERAL1
+microsteps	LITERAL1
+v_max_sps	LITERAL1
+motor_steps	LITERAL1
+
+# Hardware
+baseMotorA	LITERAL1
+baseMotorB	LITERAL1
+baseMotorC	LITERAL1
+
+# Twist / Waypoint
+x	LITERAL1
+y	LITERAL1
+w	LITERAL1
+target	LITERAL1
+t	LITERAL1
+
+# Speeds / Steps
+v1	LITERAL1
+v2	LITERAL1
+v3	LITERAL1
+s1	LITERAL1
+s2	LITERAL1
+s3	LITERAL1
